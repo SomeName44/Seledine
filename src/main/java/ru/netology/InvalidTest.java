@@ -1,8 +1,7 @@
 package ru.netology;
 
-
 import com.codeborne.selenide.Configuration;
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 import org.openqa.selenium.Keys;
 
 import java.time.LocalDate;
