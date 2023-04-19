@@ -76,7 +76,7 @@ public class InvalidTest {
         $("[data-test-id=date] input.input__control").doubleClick().sendKeys(Keys.BACK_SPACE);
         String dateOfMeeting = date(3, "dd.MM.yyyy");
         $("[data-test-id=date] input.input__control").sendKeys(dateOfMeeting);
-        $("[data-test-id=name] input").setValue("Ссирнов Петр");
+        $("[data-test-id=name] input").setValue("Смирнов Петр");
         $("[data-test-id=phone] input").setValue("+7123456789");
         $("[data-test-id='agreement']").click();
         $$("button").find(exactText("Забронировать")).click();

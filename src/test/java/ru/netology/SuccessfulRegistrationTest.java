@@ -5,13 +5,14 @@ import com.codeborne.selenide.Configuration;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.Keys;
 
+
 import java.time.Duration;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 
 import static com.codeborne.selenide.Condition.exactText;
 import static com.codeborne.selenide.Selenide.*;
-import static com.codeborne.selenide.Selenide.$;
+
 public class SuccessfulRegistrationTest {
     public String date(int plusDay, String pattern) {
         return LocalDate.now().plusDays(plusDay).format(DateTimeFormatter.ofPattern(pattern));
